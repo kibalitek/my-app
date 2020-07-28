@@ -26,7 +26,7 @@ function App() {
 
 const Home = () => (
   <div>
-    <h1>Home Page</h1>
+    <h1>Welcome to Kibalitech Web Site</h1>
   </div>
 );
 
