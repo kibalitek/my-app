@@ -7,7 +7,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(75, 84, 87);
+  background: rgb(75, 76, 87);
   color: white;
 }
 
@@ -27,4 +27,62 @@ nav {
 
 .content-wrap {
   flex: 1;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+  /* width: 100%;
+  height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; */
+}
+
+header {
+  grid-area: header;
+  background-color: #ff6347be;
+  /* width: 100%;
+  height: 70px; */
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #46f1467e;
+  color: red;
+  /* width: 30%;
+  height: 92vh;
+  float: left; */
+}
+
+.main {
+  grid-area: content;
+  background-color: #dac96e;
+  color: black;
+  /* width: 70%;
+  height: 92vh;
+  float: left; */
+}
+
+.content {
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+footer {
+  grid-area: footer;
+  background-color: indigo;
+  color: red;
+  /* width: 100%;
+  height: 50px;
+} */
+}
+header img {
+  width: 50px;
 }
