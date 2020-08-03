@@ -20,6 +20,15 @@ function Nav() {
         <Link style={navStyle} to="/shop">
           <li>Shop</li>
         </Link>
+        <Link style={navStyle} to="/work">
+          <li>Work</li>
+        </Link>
+        <Link style={navStyle} to="/database">
+          <li>Database</li>
+        </Link>
+        <Link style={navStyle} to="/footer">
+          <li>Footer</li>
+        </Link>
       </ul>
     </nav>
   );
