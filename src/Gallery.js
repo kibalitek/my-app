@@ -140,7 +140,7 @@ function About() {
         <br /> <br /> <br /> <br />
         <div className="clearfix justify-content-center">
           <img
-            src={require("./lilian.jpg")}
+            src={require("./lilian1.jpg")}
             alt="Team Lead Mobile Development"
             height="300"
             width="300"
