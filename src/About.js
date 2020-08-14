@@ -11,8 +11,10 @@ function About() {
       <p>
         This is a skillset that cannot be acquired over a short period of time
       </p>
-      <p>It takes dedication and commitment</p>
-      <p>It can result in a very rewarding career</p>
+      <p>
+        It takes dedication and commitment and can result in a very rewarding
+        career
+      </p>
       <p>
         It belongs to a borderless economy unbound by geographical limitations
       </p>

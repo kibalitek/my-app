@@ -28,14 +28,15 @@ function About() {
               Bwire Phabiano, Co-Founder/CEO/Director
             </font>
             <p style={styleObj}>
-              Phabiano holds a BS in Science with Education from (Busitema
-              University), a Diploma in Secondary Education- Biology/ Chemistry
-              (Kyambogo University), and a Certificate in Computer Education
-              (Moi University Eldoret – Kenya). He has taught and examined
+              Phabiano holds a BS in Science with Education from Busitema
+              University, a Diploma in Secondary Education- Biology/ Chemistry
+              from Kyambogo University, and a Certificate in Computer Education
+              Moi University Eldoret – Kenya. He has taught and examined
               Bio/Chem for 10 years and is intimately familiar with the issues
               regarding deficiencies in access to education especially in rural
-              areas. He and a colleague started Kibali-Tech to provide access to
-              computer programming education in Busia in March 2019.
+              areas. He and a colleague started Kibali-Tech to bring access to
+              Computer Programming and related Online Education to Busia in
+              2019.
             </p>
           </p>
         </div>
@@ -53,9 +54,9 @@ function About() {
               Wafula Newton, Programs Cordinator
             </font>
             <p style={styleObj}>
-              Newton is a senior student of Computer Science ( Makerere
-              University). Before joining Kibali-Tech, he worked with Diamond
-              trust bank as a networking officer.
+              Newton is a senior student of Computer Science from Makerere
+              University. Before joining Kibali-Tech, he worked with Diamond
+              trust bank as a Networking Officer.
             </p>
           </p>
         </div>
@@ -73,9 +74,8 @@ function About() {
               Odwori Moses, Team Lead
             </font>
             <p style={styleObj}>
-              Moses holds a BA degree in Education with Economics (Makerere
-              University). He previously taught in high schools for over 5
-              years.
+              Moses holds a BA degree in Education with Economics from Makerere
+              University. He previously taught in high schools for over 5 years.
             </p>
           </p>
         </div>
@@ -112,9 +112,9 @@ function About() {
               Masinde Joel, Assistant Programs Cordinator
             </font>
             <p style={styleObj}>
-              Joel is an undergraduate of Medicine and Surgery at Makerere
-              University, He also holds an Online BS degree in Computer Science.
-              He leads the Enterprise Application development.
+              Joel is an undergraduate student of Medicine and Surgery at
+              Makerere University. He also holds an Online BS degree in Computer
+              Science.
             </p>
           </p>
         </div>
@@ -132,8 +132,8 @@ function About() {
               Nabwire Hellen, General Secretary
             </font>
             <p style={styleObj}>
-              Nabwire holds a BA in Social Arts and Social Sciences plus a
-              certificate in Computer Studies both from (Makerere University)
+              Nabwire holds a BA in Social Arts and Sciences plus a certificate
+              in Computer Studies both from Makerere University.
             </p>
           </p>
         </div>
