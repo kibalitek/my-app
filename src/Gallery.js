@@ -121,7 +121,7 @@ function About() {
         <br /> <br /> <br /> <br />
         <div className="clearfix justify-content-center">
           <img
-            src={require("./hellen1.jpg")}
+            src={require("./hellen.jpg")}
             alt="General Secretary"
             height="300"
             width="300"
