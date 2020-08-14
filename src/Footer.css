@@ -6,3 +6,12 @@ main-footer {
   bottom: 0;
   width: 100%;
 }
+
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: black;
+  margin-bottom: 50px;
+}

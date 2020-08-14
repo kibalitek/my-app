@@ -4,12 +4,13 @@ function Footer() {
   return (
     <div className="main-footer">
       <div className="container">
+        <hr />
         <div className="row">
           {/* column1 */}
           <div className="col">
-            <h4>KibaliTech</h4>
+            <h4>Kibali-Tech</h4>
             <ul className="list-unstyled">
-              <li>(256) 111-111111</li>
+              <li>(256) 754 78 3782</li>
               <li>Busia, Uganda</li>
               <li>Sibarara Road</li>
             </ul>
@@ -36,8 +37,8 @@ function Footer() {
         <hr />
         <div className="row">
           <p className="col-sm d-flex justify-content-center">
-            &copy; {new Date().getFullYear()} KibaliTech | All rights reserved |
-            Terms of Service | Privacy
+            &copy; {new Date().getFullYear()} Kibali-Tech | All rights reserved
+            | Terms of Service | Privacy
           </p>
         </div>
       </div>

@@ -86,3 +86,8 @@ footer {
 header img {
   width: 50px;
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+}

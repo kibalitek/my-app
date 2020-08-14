@@ -2,85 +2,162 @@ import React from "react";
 import "./App.css";
 
 function About() {
+  const styleObj = {
+    fontSize: 18,
+    textAlign: "left",
+    paddingTop: "5px",
+    paddingLeft: "20px",
+    paddingRight: "20px",
+  };
   return (
     <div className="App">
-      <h1><i>KIBALITECH TEAM</i></h1>
-      <img src={require('./Phabian3.jpg')} alt="CEO KIBALITECH"  height="200" width="200"/>
-    <p> <b>BWIRE PHABIANO</b><br></br>
-    <font face="Times New Roman" size="+3"
-color="#6699ff">C.E.O</font><br></br>
-<right>Bwire is the CO-FOUNDER  and CEO of KIBALITEK<br></br>
-He holds a Bachelor’s degree in science with Education (Busitema University).<br></br>  Diploma in secondary Education- Biology/ Chemistry(Kyambogo university),  a Certificate in computer Education(Moi university Eldoret – Kenya) .
-He started  the idea of computer programming  in March, 2019 with a friend called Joe living in the USA<br></br>
-Bwire had taught and examined Bio/Chem for 10 years at secondary level<br></br>
-He currently runs the project activities as the CEO.</right>
-</p>
-<h2>KIBALITECH TEAM</h2>
-     <img src={require('./Newton.jpg')} alt="PROGRAMS CORDINATOR KIBALITECH"  height="200" width="200"/>
-   <p> <b>WAFULA NEWTON</b><br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699ff">PROGRAMS CORDINATOR</font><br></br>
-   Wafula, is in charge of controlling all programming activities.<br></br> Posting project information to all platforms, youtube, play store, compiling all tutorials and distributing to the various teams, assessing the level of out put for each team and giving technical advise.<br></br>
-He reports to the CEO.<br></br>
-Newton is an undergraduate of bachelors in computer science( Makerere university).<br></br>
-Before joining Kibalitek, he worked with Diamond trust bank as a networking officer.
-
-</p>
-<h2>KIBALITECH TEAM</h2>
-     <img src={require('./Moses.JPG')} alt="TEAM LEADER"  height="200" width="200"/>
-   <p> <b>ODWORI MOSES</b><br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699ff">TEAM LEADER</font><br></br>
-Odwori is the team leader charged with responsibility of organizing sesssions and learning activities at kibalitek.<br></br>
-He holds a bachelor’s degree in education with economics( Makerere university).<br></br>
-He had earlier taught for 5 years in high schools before joining the team.
-
-
-</p>
-<h2>KIBALITECH TEAM</h2>
-     <img src={require('./Tabitha.jpg')} alt="SECRETARY FINANCE"  height="200" width="200"/>
-   <p> <b>LOGOSE TABITHA</b><br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699ff">SECRETARY FINANCE</font><br></br>
-  Tabitha is in charge of making local purchases for the team.<br></br> She plans on simple budgets for the meals, sanitation and accommodation of the team and presents a weekly budget of the project to the CEO.<br></br>
-She holds a certificate in accounts and finance (UDBS) UCC Tororo.<br></br>
-She also runs the Kibalitek café which serves meals to the team.
-
-</p>
-<h2>KIBALITECH TEAM</h2>
-     <img src={require('./Job.JPG')} alt="ASSISTANT PROGRAMS CORDINATOR"  height="200" width="200"/>
-   <p> <b>MASINDE JOEL</b>L<br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699ff">ASSISTANT PROGRAMS CORDINATOR</font><br></br>
-Masinde is an undergraduate of Bachelor’s of medicine and surgery at Makerere university, He also holds an online bachelor's degree in computer science.<br></br>
-He leads the Website development group and reports to Wafula Newton.<br></br>
-</p>
-<h2>KIBALITECH TEAM</h2>
-     <img src={require('./Hellen.jpg')} alt="GENERAL SECRETARY"  height="200" width="200"/>
-   <p><b>NABWIRE HELLEN</b><br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699ff">GENERAL SECRETARY</font><br></br>
-Nabwire belongs to the flutter team that builds mobile  and desktop applications.<br></br>
-She also doubles as the secretary of the project.<br></br>
-She records all data, writes all schedules,proposals,official documents, prepares and keeps all files for the team.<br></br>
-She holds a bachelor’s degree in social arts and social sciences(Makerere university), a certificate in computer studies from the same university.<br></br>
-
-
-
-</p>
-  
-     <h2>KIBALITECH TEAM</h2>
-     <img src={require('./LILIAN.JPG')} alt="TEAM LEADER MOBILE APP DEV'T"  height="200" width="200"/>
-   <p> <b>ANYANGO LILIAN</b><br></br>
-   <font face="Times New Roman" size="+3"
-color="#6699f">TEAM LEADER MOBILE APP DEV'T</font><br></br>
-   Anyango is the team leader of the flutter group. She organizes sessions for the flutter group and reports to the overall team leader.<br></br>
-She holds an advanced certificate of education.<br></br>
-She originally had no computer knowledge when she joined Kibalitek in March 2019.
-
-</p>
-   </div>
-   );
-  }
+      <div class="container">
+        <div>
+          <br /> <br /> <br /> <br />
+        </div>
+        <div className="d-flex justify-content-center">
+          <img
+            src={require("./Phabian3.jpg")}
+            alt="CEO/Director Kibali-Tech"
+            height="300"
+            width="400"
+            className="float-left img-responsive"
+          />
+          <p>
+            <font face="arial" size="+2" color="#6699ff">
+              Bwire Phabiano, Co-Founder/CEO/Director
+            </font>
+            <p style={styleObj}>
+              Phabiano holds a BS in Science with Education from (Busitema
+              University), a Diploma in Secondary Education- Biology/ Chemistry
+              (Kyambogo University), and a Certificate in Computer Education
+              (Moi University Eldoret – Kenya). He has taught and examined
+              Bio/Chem for 10 years and is intimately familiar with the issues
+              regarding deficiencies in access to education especially in rural
+              areas. He and a colleague started Kibali-Tech to provide access to
+              computer programming education in Busia in March 2019.
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./Newton.jpg")}
+            alt="Programs Cordinator"
+            height="300"
+            width="300"
+            className="float-right img-responsive"
+          />
+          <p>
+            <font face="Times New Roman" size="+2" color="#6699ff">
+              Wafula Newton, Programs Cordinator
+            </font>
+            <p style={styleObj}>
+              Newton is a senior student of Computer Science ( Makerere
+              University). Before joining Kibali-Tech, he worked with Diamond
+              trust bank as a networking officer.
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./Moses.JPG")}
+            alt="Team Lead Flutter"
+            height="300"
+            width="400"
+            className="float-left img-responsive"
+          />
+          <p>
+            <font face="Times New Roman" size="+2" color="#6699ff">
+              Odwori Moses, Team Lead
+            </font>
+            <p style={styleObj}>
+              Moses holds a BA degree in Education with Economics (Makerere
+              University). He previously taught in high schools for over 5
+              years.
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./Tabitha.jpg")}
+            alt="Secretary Finance"
+            height="400"
+            width="400"
+            className="float-right img-responsive"
+          />
+          <p>
+            <font face="Times New Roman" size="+2" color="#6699ff">
+              Logose Tabitha, Secretary Finance
+            </font>
+            <p style={styleObj}>
+              Tabitha holds a certificate in accounts and finance (UDBS) UCC
+              Tororo. She also runs the Kibali-Tech Café.
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./Job.JPG")}
+            alt="Assistant Programs Cordinator"
+            height="300"
+            width="400"
+            className="float-left img-responsive"
+          />
+          <p>
+            <font face="Times New Roman" size="+1" color="#6699ff">
+              Masinde Joel, Assistant Programs Cordinator
+            </font>
+            <p style={styleObj}>
+              Joel is an undergraduate of Medicine and Surgery at Makerere
+              University, He also holds an Online BS degree in Computer Science.
+              He leads the Enterprise Application development.
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./hellen.jpg")}
+            alt="General Secretary"
+            height="300"
+            width="300"
+            className="float-right img-responsive"
+          />
+          <p>
+            <font face="Times New Roman" size="+2" color="#6699ff">
+              Nabwire Hellen, General Secretary
+            </font>
+            <p style={styleObj}>
+              Nabwire holds a BA in Social Arts and Social Sciences plus a
+              certificate in Computer Studies both from (Makerere University)
+            </p>
+          </p>
+        </div>
+        <br /> <br /> <br /> <br />
+        <div className="clearfix justify-content-center">
+          <img
+            src={require("./lilian.jpg")}
+            alt="Team Lead Mobile Development"
+            height="300"
+            width="300"
+            className="float-left img-responsive"
+          />
+          <div>
+            <font face="Times New Roman" size="+2" color="#6699f">
+              Anyango Lilian, Team Lead Mobile Development
+            </font>
+            <p style={styleObj}>
+              Lilian holds an advanced certificate of education.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default About;
