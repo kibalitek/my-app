@@ -20,7 +20,7 @@ function About() {
             src={require("./Phabian3.jpg")}
             alt="CEO/Director Kibali-Tech"
             height="300"
-            width="400"
+            width="250"
             className="float-left img-responsive"
           />
           <p>
@@ -46,7 +46,7 @@ function About() {
             src={require("./Newton.jpg")}
             alt="Programs Cordinator"
             height="300"
-            width="300"
+            width="250"
             className="float-right img-responsive"
           />
           <p>
@@ -66,7 +66,7 @@ function About() {
             src={require("./Moses.JPG")}
             alt="Team Lead Flutter"
             height="300"
-            width="400"
+            width="250"
             className="float-left img-responsive"
           />
           <p>
@@ -84,8 +84,8 @@ function About() {
           <img
             src={require("./Tabitha.jpg")}
             alt="Secretary Finance"
-            height="400"
-            width="400"
+            height="300"
+            width="250"
             className="float-right img-responsive"
           />
           <p>
@@ -104,7 +104,7 @@ function About() {
             src={require("./Job.JPG")}
             alt="Assistant Programs Cordinator"
             height="300"
-            width="400"
+            width="300"
             className="float-left img-responsive"
           />
           <p>
@@ -124,7 +124,7 @@ function About() {
             src={require("./hellen1.jpg")}
             alt="General Secretary"
             height="300"
-            width="300"
+            width="250"
             className="float-right img-responsive"
           />
           <p>
@@ -143,7 +143,7 @@ function About() {
             src={require("./lilian1.jpg")}
             alt="Team Lead Mobile Development"
             height="300"
-            width="300"
+            width="250"
             className="float-left img-responsive"
           />
           <div>
