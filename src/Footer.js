@@ -10,6 +10,7 @@ function Footer() {
           <div className="col">
             <h4>Kibali-Tech</h4>
             <ul className="list-unstyled">
+              <li>(256) 750 55 6129</li>
               <li>(256) 754 78 3752</li>
               <li>kibalitek@gmail.com</li>
               <li>Sibarara Road</li>
