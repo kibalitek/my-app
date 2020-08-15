@@ -7,20 +7,22 @@ function About() {
       <div>
         <br /> <br /> <br /> <br />
       </div>
-      <p>The company was started to bring Computer Programming to the area.</p>
+      <p>The company was started to bring Computer Programming to the area</p>
       <p>
         This is a skillset that cannot be acquired over a short period of time
+        and therefore requires perseverance and focus
       </p>
       <p>
         It takes dedication and commitment and can result in a very rewarding
         career
       </p>
       <p>
-        It belongs to a borderless economy unbound by geographical limitations
+        Computer Programming is part of a borderless economy unbound by
+        geographical limitations
       </p>
       <p>
-        The field although mature in the developed world, it is just beginning
-        to grow in the developing world.
+        The field although mature in the developed world, is just beginning to
+        grow in the developing world
       </p>
       <p>There is an insatiable need for good developers world-wide</p>
     </div>

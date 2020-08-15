@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
-import Shop from "./Shop";
 import Gallery from "./Gallery";
+import Team from "./Team";
 import Footer from "./Footer";
-import Work from "./Work";
+import Faq from "./Faq";
 import PunchLine from "./PunchLine";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,10 +20,10 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/work" component={Work} />
-            <Route path="/shop" exact component={Shop} />
-            <Route path="/shop/:id" component={PunchLine} />
+            <Route path="/team" component={Team} />
+            <Route path="/faq" component={Faq} />
+            <Route path="/gallery" exact component={Gallery} />
+            <Route path="/gallery/:id" component={PunchLine} />
           </Switch>
         </Router>
       </div>

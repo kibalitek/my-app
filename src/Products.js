@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
 
-function Shop() {
+function Gallery() {
   useEffect(() => {
     fetchItems();
   }, []);
@@ -22,11 +22,11 @@ function Shop() {
     <div className="App">
       {items.map((item) => (
         <h1 key={item.id}>
-          <Link to={`/shop/${item.id}`}>{item.setup}</Link>
+          <Link to={`/gallery/${item.id}`}>{item.setup}</Link>
         </h1>
       ))}
     </div>
   );
 }
 
-export default Shop;
+export default Gallery;

@@ -11,8 +11,9 @@ function Footer() {
             <h4>Kibali-Tech</h4>
             <ul className="list-unstyled">
               <li>(256) 754 78 3782</li>
-              <li>Busia, Uganda</li>
+              <li>kibalitek@gmail.com</li>
               <li>Sibarara Road</li>
+              <li>Busia, Uganda</li>
             </ul>
           </div>
           {/* column2 */}
