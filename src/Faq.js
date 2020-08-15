@@ -12,7 +12,7 @@ function Faq() {
       </p>
       <p>
         <font face="Times New Roman" size="+1" color="black">
-          To attract and retain a technology community in area and beyond.
+          To attract and retain a technology community in the area and beyond.
         </font>
       </p>
       <p>
@@ -24,12 +24,12 @@ function Faq() {
         <font face="Times New Roman" size="+1" color="black" clasName="center">
           <p>
             Having a stable internet connection that can allow our teams to
-            focus on accomplishing their work without interruptions.
+            focus on accomplishing projects without interruptions.
           </p>
           <p>
             {" "}
-            Also one that can support video conferencing because we often
-            interact with other developers around the world.
+            Also, a connection that can support video conferencing because we
+            often interact with other developers around the world.
           </p>
         </font>
       </p>
