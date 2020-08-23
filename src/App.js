@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
 import Gallery from "./Gallery";
+import Events from "./Events";
 import Team from "./Team";
 import Footer from "./Footer";
 import Faq from "./Faq";
@@ -23,6 +24,7 @@ function App() {
             <Route path="/team" component={Team} />
             <Route path="/faq" component={Faq} />
             <Route path="/gallery" exact component={Gallery} />
+            <Route path="/events" exact component={Events} />
             <Route path="/gallery/:id" component={PunchLine} />
           </Switch>
         </Router>
