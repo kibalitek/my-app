@@ -14,7 +14,7 @@ function Events() {
       <br /> <br />
       <div className="d-flex justify-content-center">
         <img
-          src={require("./tech_sat22082020.jpg")}
+          src={require("./tech_sat2.jpg")}
           alt="Start Team Kibali-Tech"
           height="500"
           width="800"
